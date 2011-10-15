@@ -1,0 +1,9 @@
+{
+  "name": "Tabby",
+  "version": "1.0",
+  "description": "Insert new tabs to the right of selected tabs.",
+  "permissions": [
+    "tabs"
+  ],
+  "background_page": "background.html"
+}
