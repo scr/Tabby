@@ -69,6 +69,8 @@
 
     // TODO(scr) document
     windows.onFocusChanged.addListener(function(windowID) {
+					   if (windowID === windows.WINDOW_ID_NONE)
+					       return;
 					   var moveFromWindowId = focusedWindow;
 					   if (focusedWindow !== windows.WINDOW_ID_NONE) {
 					       tabs.query({
